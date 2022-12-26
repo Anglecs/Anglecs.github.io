@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>搭建blog中遇到的一些小问题汇总</title>
+      <link href="/2022/12/25/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <url>/2022/12/25/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<p>22-12-25更新</p><h1 id="副标题设计"><a href="#副标题设计" class="headerlink" title="副标题设计"></a>副标题设计</h1><p>在站点配置文件_config.yml下更改 <code>subtitle</code>,但是在网页上找不到在哪</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Site</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">盒盒のbox</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">没有奇迹，没有惊喜</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="attr">keywords:</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">盒盒</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span></span><br></pre></td></tr></table></figure><p><del>在网上搜了一下说<code>Mist</code>主题作者把副标题隐藏了，所以换成<code>Muse</code>主题试一下</del><br>没有用又改回来了</p><h1 id="给文章分类及打tag"><a href="#给文章分类及打tag" class="headerlink" title="给文章分类及打tag"></a>给文章分类及打tag</h1><p>在文章的最开头like this:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 搭建blog中遇到的一些小问题汇总</span><br><span class="line">date: 2022-12-25</span><br><span class="line">categories:</span><br><span class="line">- hexo</span><br><span class="line">tags:</span><br><span class="line">- hexo</span><br><span class="line">- blog</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p><code>categories</code>后面的就是文章的分类，好像一个文章只能有一个分类，<code>tags</code>后面的就是文章的tag，可以有很多个</p><p>今天就整这么多吧，摆了（</p><p>22-12-26更新</p><h1 id="博文置顶功能"><a href="#博文置顶功能" class="headerlink" title="博文置顶功能"></a>博文置顶功能</h1><p>在需要置顶的文章的Front-matter中加上top: true即可,like this:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">title: 搭建blog中遇到的一些小问题汇总</span><br><span class="line">date: 2022-12-25</span><br><span class="line">categories:</span><br><span class="line">- hexo</span><br><span class="line">tags:</span><br><span class="line">- hexo</span><br><span class="line">- blog</span><br><span class="line">top: true</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
