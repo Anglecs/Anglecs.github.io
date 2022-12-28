@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>搭建qq机器人(二)</title>
+      <link href="/2022/12/28/qqbot(2)/"/>
+      <url>/2022/12/28/qqbot(2)/</url>
+      
+        <content type="html"><![CDATA[<p>跟着教程走，要致富，先撸树！</p><p>忙了一下午终于</p><p><img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20221228181423079.png" alt="image-20221228181423079"></p><p><del>我的8080端口被占用了</del></p><p>找了半天的bug</p><p><del>虽然没干什么事但是累死了</del></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> bot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> qq </tag>
+            
+            <tag> bot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建qq机器人(一)</title>
+      <link href="/2022/12/28/qqbot/"/>
+      <url>/2022/12/28/qqbot/</url>
+      
+        <content type="html"><![CDATA[<p>看到别人在qq<del>调教</del>自己的机器人有点心动也想自己搭一个</p><p>网上搜到了mirai框架，下面是他们的开发文档</p><p><a href="https://docs.mirai.mamoe.net/">Mirai | mirai (mamoe.net)</a></p><p>官方文档的搭建教程：<a href="https://docs.mirai.mamoe.net/ConsoleTerminal.html">Mirai - Console Terminal | mirai (mamoe.net)</a></p><p>ariadne社区文档的搭建教程：<a href="https://graiax.cn/before/install_mirai.html">Mirai 的安装与配置 | GraiaX 文档</a></p><p>感觉社区文档的更清楚一点，我就跟着社区文档走了</p><p>mirai部分搭建就几个步骤：<br>1.安装java11</p><p>打开cmd</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install Microsoft.OpenJDK.17</span><br></pre></td></tr></table></figure><p>2.下载解压mcl</p><p>下载地址：<a href="https://github.com/iTXTech/mirai-console-loader/releases/download/v2.1.0/mcl-2.1.0.zip">https://github.com/iTXTech/mirai-console-loader/releases/download/v2.1.0/mcl-2.1.0.zip</a></p><p><del>不会有人不会解压吧</del></p><p>3.安装mah插件并配置mah信息</p><p>进到上一步解压出来的文件夹中先双击mcl.cmd运行，然后shift+右键，然后选择启动Windows powershell：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">./mcl --update-package net.mamoe:mirai-api-http --channel stable-v2 --type plugin</span><br><span class="line">./mcl -u</span><br></pre></td></tr></table></figure><p><img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20221228151545140.png" alt="image-20221228151545140"></p><p>这样就是成功了</p><p><img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20221228152231637.png" alt="image-20221228152231637"></p><p>登录账号试试，不建议按照教程设置自动登录，因为每次登录要验证，会增加风险</p><p>登陆时弹出界面要验证</p><p><img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20221228152709301.png" alt="image-20221228152709301"></p><p>复制url到浏览器打开，先别急着验证，按f12打开开发者工具，选择网络一栏，再回去验证</p><p>复制得到的ticket到下面一栏按回车</p><p><img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20221228153912749.png" alt="image-20221228153912749"></p><p>这样就是成功了</p><p>CTRL+C退出服务，接着去配置mah</p><p>配置完出了点问题（暂时不知道寄在哪）先往后做着吧</p><h2 id="插一嘴"><a href="#插一嘴" class="headerlink" title="插一嘴"></a>插一嘴</h2><p>记得安装<code>poetry</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> bot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> qq </tag>
+            
+            <tag> bot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搭建blog中遇到的一些小问题汇总</title>
       <link href="/2022/12/25/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
       <url>/2022/12/25/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
