@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-05-13T02:20:59.381Z</updated>
+  <updated>2023-05-13T02:29:22.951Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>SDN课程实验</title>
     <link href="http://example.com/2023/05/13/SDN/"/>
     <id>http://example.com/2023/05/13/SDN/</id>
-    <published>2023-05-13T01:22:55.916Z</published>
-    <updated>2023-05-13T02:20:59.381Z</updated>
+    <published>2023-05-12T16:00:00.000Z</published>
+    <updated>2023-05-13T02:29:22.951Z</updated>
     
     <content type="html"><![CDATA[<h1 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h1><p>———————–2023-5-13</p><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>历史-&gt;威胁-&gt;发展</p><p>三大主流SDN标准化技术：OpenFlow、Overlay（网络虚拟化叠加）&amp;I2RS（路由系统接口）、NFV</p><p>NFV与SDN的基础都是通用服务器、云计算以及虚拟化技术</p><p>NFV与SDN存在互补性，二者相互独立，没有依赖关系</p><p>OpenFlow改变了网络结构——NetworkOS</p><h2 id="定义和架构"><a href="#定义和架构" class="headerlink" title="定义和架构"></a>定义和架构</h2><p>SDN——软件定义网络</p><p>架构：ONF所定义的典型架构：应用层、控制层、基础设施层</p><p>南向接口：向下与设备交互的接口称为南向接口</p><p>北向接口：控制器向上为SDN APP提供的编程接口（API）就称为北向接口</p><p>​SDN最本质的特征就是允许通过编程的方式控制网络</p><p>东西向接口：定义控制器之间通信的接口</p><p>基本概念——传统网络设备的数控分离</p><p>​  SDN数控分离：SDN主要特征之一</p><p>​  SDN网络可编程：另一个重要属性，主要体现在北向接口</p><h2 id="SDN仿真基础"><a href="#SDN仿真基础" class="headerlink" title="SDN仿真基础"></a>SDN仿真基础</h2><h3 id="Linux系统"><a href="#Linux系统" class="headerlink" title="Linux系统"></a>Linux系统</h3><h3 id="虚拟化"><a href="#虚拟化" class="headerlink" title="虚拟化"></a>虚拟化</h3><p>通过虚拟化技术将一台计算机虚拟为多台逻辑计算机</p>]]></content>
     
@@ -34,6 +34,12 @@
     
     
     
+    <category term="SDN" scheme="http://example.com/categories/SDN/"/>
+    
+    
+    <category term="SDN" scheme="http://example.com/tags/SDN/"/>
+    
+    <category term="课程实验" scheme="http://example.com/tags/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/"/>
     
   </entry>
   
@@ -42,8 +48,16 @@
     <link href="http://example.com/2023/03/22/%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/"/>
     <id>http://example.com/2023/03/22/%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/</id>
     <published>2023-03-21T16:00:00.000Z</published>
-    <updated>2023-03-22T15:01:04.223Z</updated>
+    <updated>2023-05-13T02:29:37.625Z</updated>
     
+    <content type="html"><![CDATA[<p>1</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1&lt;/p&gt;
+</summary>
+      
     
     
     
