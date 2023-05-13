@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-12-28T10:16:00.652Z</updated>
+  <updated>2023-05-13T02:20:59.381Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://example.com/2023/05/13/SDN/"/>
+    <id>http://example.com/2023/05/13/SDN/</id>
+    <published>2023-05-13T01:22:55.916Z</published>
+    <updated>2023-05-13T02:20:59.381Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h1><p>———————–2023-5-13</p><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>历史-&gt;威胁-&gt;发展</p><p>三大主流SDN标准化技术：OpenFlow、Overlay（网络虚拟化叠加）&amp;I2RS（路由系统接口）、NFV</p><p>NFV与SDN的基础都是通用服务器、云计算以及虚拟化技术</p><p>NFV与SDN存在互补性，二者相互独立，没有依赖关系</p><p>OpenFlow改变了网络结构——NetworkOS</p><h2 id="定义和架构"><a href="#定义和架构" class="headerlink" title="定义和架构"></a>定义和架构</h2><p>SDN——软件定义网络</p><p>架构：ONF所定义的典型架构：应用层、控制层、基础设施层</p><p>南向接口：向下与设备交互的接口称为南向接口</p><p>北向接口：控制器向上为SDN APP提供的编程接口（API）就称为北向接口</p><p>​SDN最本质的特征就是允许通过编程的方式控制网络</p><p>东西向接口：定义控制器之间通信的接口</p><p>基本概念——传统网络设备的数控分离</p><p>​  SDN数控分离：SDN主要特征之一</p><p>​  SDN网络可编程：另一个重要属性，主要体现在北向接口</p><h2 id="SDN仿真基础"><a href="#SDN仿真基础" class="headerlink" title="SDN仿真基础"></a>SDN仿真基础</h2><h3 id="Linux系统"><a href="#Linux系统" class="headerlink" title="Linux系统"></a>Linux系统</h3><h3 id="虚拟化"><a href="#虚拟化" class="headerlink" title="虚拟化"></a>虚拟化</h3><p>通过虚拟化技术将一台计算机虚拟为多台逻辑计算机</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;SDN&quot;&gt;&lt;a href=&quot;#SDN&quot; class=&quot;headerlink&quot; title=&quot;SDN&quot;&gt;&lt;/a&gt;SDN&lt;/h1&gt;&lt;p&gt;———————–2023-5-13&lt;/p&gt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python搭建虚拟环境</title>
+    <link href="http://example.com/2023/03/22/%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/"/>
+    <id>http://example.com/2023/03/22/%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/</id>
+    <published>2023-03-21T16:00:00.000Z</published>
+    <updated>2023-03-22T15:01:04.223Z</updated>
+    
+    
+    
+    
+    <category term="python" scheme="http://example.com/categories/python/"/>
+    
+    
+    <category term="python" scheme="http://example.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>搭建qq机器人(二)</title>
     <link href="http://example.com/2022/12/28/qqbot(2)/"/>
     <id>http://example.com/2022/12/28/qqbot(2)/</id>
     <published>2022-12-27T16:00:00.000Z</published>
-    <updated>2022-12-28T10:16:00.652Z</updated>
+    <updated>2022-12-29T04:02:11.511Z</updated>
     
-    <content type="html"><![CDATA[<p>跟着教程走，要致富，先撸树！</p><p>忙了一下午终于</p><p><img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20221228181423079.png" alt="image-20221228181423079"></p><p><del>我的8080端口被占用了</del></p><p>找了半天的bug</p><p><del>虽然没干什么事但是累死了</del></p>]]></content>
+    <content type="html"><![CDATA[<p>跟着教程走，要致富，先撸树！</p><p>忙了一下午终于</p><p><img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20221228181423079.png" alt="image-20221228181423079"></p><p><del>我的8080端口被占用了</del></p><p>找了半天的bug</p><p><del>虽然没干什么事但是累死了</del></p><p>2022-12-29更新：</p><h1 id="安装saya"><a href="#安装saya" class="headerlink" title="安装saya"></a>安装saya</h1><p>saya可以帮助管理机器人中不同的功能，就像是往里打mod，saya就是mod管理器</p><p>来一点文件头（）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">from graia.ariadne.app import Ariadne</span><br><span class="line">from graia.ariadne.event.message import GroupMessage</span><br><span class="line">from graia.ariadne.event.message import FriendMessage</span><br><span class="line">from graia.ariadne.message.chain import MessageChain</span><br><span class="line">from graia.ariadne.model import Group</span><br><span class="line">from graia.ariadne.model import Friend</span><br><span class="line"></span><br><span class="line">from graia.saya import Channel</span><br><span class="line">from graia.saya.builtins.broadcast.schema import ListenerSchema</span><br><span class="line"></span><br><span class="line">channel = Channel.current()</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
