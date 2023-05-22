@@ -43,9 +43,9 @@
     <link href="http://example.com/2023/05/16/%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/"/>
     <id>http://example.com/2023/05/16/%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/</id>
     <published>2023-05-15T16:00:00.000Z</published>
-    <updated>2023-05-16T08:50:59.416Z</updated>
+    <updated>2023-05-22T08:43:46.116Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>1、在搭建机器人的时候，按照官网的步骤创建虚拟环境后用pycharm打开项目找不到环境（我就又在pycharm上重新创了一个）</p><p>有空研究下（</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>1、在搭建机器人的时候，按照官网的步骤创建虚拟环境后用pycharm打开项目找不到环境（我就又在pycharm上重新创了一个）</p><p>有空研究下（</p><p>2023-05-22更新：</p><p><strong>默认</strong>下载了pycharm并且安装好了poetry</p><p>先创建一个新的项目文件夹，进入项目文件夹并用pycharm打开，左下角选择<code>终端</code>，输入命令<code>poetry init</code>在已有项目中添加poetry管理，执行完后会发现项目根目录下出现了一个<code>pyproject.toml</code>文件，这就是poetry的配置文件</p><p>添加完poetry管理后，再用poetry添加虚拟环境，查询<a href="%22https://python-poetry.org/docs/configuration/">官方文档</a>可知，通过配置参数可以把虚拟环境安装到项目文件夹下而不是C盘😡,具体代码如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">poetry config virtualenvs.in-project true</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">poetry env use python</span><br></pre></td></tr></table></figure><p>添加完虚拟环境后用<code>poetry env info</code>查看虚拟环境</p><p>创建完虚拟环境后就是为当前项目使用这个环境,在pycharm的右下角选择添加解释器,找到刚刚创建的<code>.venv/Scripts/python.exe</code>并添加,再选择这个环境作为当前项目的解释器</p><p>最后<code>poetry shell</code>启动虚拟环境即可</p>]]></content>
     
     
       
@@ -60,6 +60,10 @@
     
     
     <category term="python" scheme="http://example.com/tags/python/"/>
+    
+    <category term="poetry" scheme="http://example.com/tags/poetry/"/>
+    
+    <category term="虚拟环境" scheme="http://example.com/tags/%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/"/>
     
   </entry>
   
