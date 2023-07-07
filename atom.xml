@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-05T08:31:58.013Z</updated>
+  <updated>2023-07-07T03:16:54.564Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python爬虫（二）</title>
+    <link href="http://example.com/2023/07/06/python%E7%88%AC%E8%99%AB%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>http://example.com/2023/07/06/python%E7%88%AC%E8%99%AB%EF%BC%88%E4%BA%8C%EF%BC%89/</id>
+    <published>2023-07-05T16:00:00.000Z</published>
+    <updated>2023-07-07T03:16:54.564Z</updated>
+    
+    <content type="html"><![CDATA[<p><del>还是看到什么写什么</del> </p><h1 id="1、format-方法的基本使用"><a href="#1、format-方法的基本使用" class="headerlink" title="1、format()方法的基本使用"></a>1、format()方法的基本使用</h1><p>&lt;模板字符串&gt;.format(&lt;逗号分隔的参数&gt;)</p><p>感觉这么说有点干，不如举个具体的栗子</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="string">&quot;&#123;&#125;顶针，鉴定为&#123;&#125;&quot;</span>.<span class="built_in">format</span>(<span class="string">&quot;一眼&quot;</span>,<span class="string">&quot;纯纯的弱鸡&quot;</span>)</span><br></pre></td></tr></table></figure><p>很明显可以看出来<code>format</code>按照顺序将<code>&quot;顶针&quot;</code>和<code>&quot;纯纯的弱鸡&quot;</code>填到了前面的两个{}内，这样做的好处有什么呢</p><p>好处就是如果有隋唐测试，要求更改语句，我们不用去重新输入整条语句，只用改变format中的参数，就能创造一个顶针世界（bushi</p><p>format中也有参数的序号，同样以上面那个句子为例,我如果稍作改动</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="string">&quot;&#123;0&#125;顶针，鉴定为&#123;1&#125;&quot;</span>.<span class="built_in">format</span>(<span class="string">&quot;一眼&quot;</span>,<span class="string">&quot;纯纯的弱鸡&quot;</span>)</span><br></pre></td></tr></table></figure><p>这样的输出结果跟之前的是一样的，但如果再把0和1交换位置，变成</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a=<span class="string">&quot;&#123;1&#125;顶针，鉴定为&#123;0&#125;&quot;</span>.<span class="built_in">format</span>(<span class="string">&quot;一眼&quot;</span>,<span class="string">&quot;纯纯的弱鸡&quot;</span>)</span><br></pre></td></tr></table></figure><p>这种情况下输出的语句就会有很大变化</p><p><strong>warning：必须满足空格数对应参数数量时，才可以不加参数序号使用</strong></p><p>format()另外的用处之——格式控制</p><p>{&lt;参数序号&gt;:&lt;格式控制标记&gt;}</p><table><thead><tr><th>填充</th><th>对齐</th><th>宽度</th><th>,</th><th>.精度</th><th>类别</th></tr></thead><tbody><tr><td>用于填充单个字符</td><td>&lt;左对齐；&gt;右对齐；^居中</td><td>设定输出宽度</td><td>数字的千位分隔符，适用于整数和浮点数</td><td>浮点数小数部分的精度或字符串最大输出长度</td><td>整数类型B,c,d,o,x,X浮点数类型e,E,f,%</td></tr></tbody></table><p>可以随意选择这六个里面的一个或多个使用，注意在使用的时候<strong>按照表格所示顺序排列</strong></p><p><a href="https://zhuanlan.zhihu.com/p/60357679">详细解释</a></p><h1 id="2、WebDriver"><a href="#2、WebDriver" class="headerlink" title="2、WebDriver"></a>2、WebDriver</h1><p>一个提供了各种语言环境的API来支持更多控制权和编写符合标准软件开发实践的应用程序，官方文档：<a href="https://www.selenium.dev/zh-cn/documentation/overview/">概述 | Selenium</a></p><p><del>感觉像是前端的东西，不确定再看看</del></p><p>尝试着写了一个万宝楼抢东西的脚本，但是卡在了登录验证和购买验证这里，打算再试试淘宝抢相机</p><h1 id="3、global全局变量"><a href="#3、global全局变量" class="headerlink" title="3、global全局变量"></a>3、global全局变量</h1><p><a href="https://zhuanlan.zhihu.com/p/96851082">Python 关键字global全局变量详解 </a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;del&gt;还是看到什么写什么&lt;/del&gt; &lt;/p&gt;
+&lt;h1 id=&quot;1、format-方法的基本使用&quot;&gt;&lt;a href=&quot;#1、format-方法的基本使用&quot; class=&quot;headerlink&quot; title=&quot;1、format()方法的基本使用&quot;&gt;&lt;/a&gt;1、format</summary>
+      
+    
+    
+    
+    
+    <category term="python" scheme="http://example.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>python爬虫（一）</title>
